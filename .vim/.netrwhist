@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/auto/homes/tb403/src/dtg-puppet-clean/modules'
+let g:netrw_dirhist_2='/auto/homes/tb403/src/dtg-puppet-clean'
+let g:netrw_dirhist_3='/auto/homes/tb403/fresco/opus/src/frontend/gen-boiler'
+let g:netrw_dirhist_4='/etc'

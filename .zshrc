@@ -5,8 +5,10 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="steeef"
+ZSH_THEME="agnoster"
+#ZSH_THEME="steeef-hark"
 
+DEFAULT_USER="tb403"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -33,8 +35,11 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.bashrc
-
 # Customize to your needs...
 
 alias plog="/home/tb403/worklog/bin/log.sh"
 alias pylint="/home/tb403/.local/bin/pylint"
+
+export EDITOR="vim"
+
+eval $(thefuck --alias)

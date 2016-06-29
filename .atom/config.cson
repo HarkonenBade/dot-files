@@ -27,6 +27,13 @@
       "text.tex"
       "text.tex.latex"
     ]
+  "linter-flake8": {}
+  "linter-pylint": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "status-bar": {}
+  build:
+    saveOnBuild: true
 ".tex.text":
   editor:
     softWrap: true
