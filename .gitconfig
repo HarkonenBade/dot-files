@@ -8,6 +8,6 @@
 	st = status -sb
 	check-track = checkout
 [push]
-	default = current
+	default = simple
 [diff]
 	color = always
